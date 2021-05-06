@@ -233,6 +233,14 @@ input {
   .cover {
     right: 3px;
   }
+
+  input {
+    width: 50%;
+  }
+
+  .color-picker-img {
+    margin-right: 1rem;
+  }
 }
 
 input.error {
