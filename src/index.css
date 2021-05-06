@@ -181,9 +181,9 @@ small {
 }
 
 .cover {
-  position: fixed;
-  top: 135px;
-  right: 319px;
+  position: relative;
+  top: 128px;
+  right: -74px;
   bottom: 0;
   left: 0;
 }
@@ -209,6 +209,12 @@ input {
   margin-right: 10px;
 }
 
+@media screen and (max-width: 640px) {
+  .cover {
+    right: -33px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .container h3 {
     font-size: 1rem;
@@ -217,7 +223,18 @@ input {
   .btn {
     font-size: 0.85rem;
   }
+  .cover {
+    top: 122px;
+    right: -32px;
+  }
 }
+
+@media screen and (max-width: 568px) {
+  .cover {
+    right: 3px;
+  }
+}
+
 input.error {
   border: 2px solid var(--clr-red-dark);
 }

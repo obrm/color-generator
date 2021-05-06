@@ -47,19 +47,19 @@ function App() {
           </button>
         </form>
         <small>לחיצה על צבע תעתיק אותו ללוח</small>
-      </section>
-      {displayColorPicker && (
-        <div className='popover'>
-          <div className='cover'>
-            <ChromePicker
-              color={color}
-              onChange={(updatedColor) => {
-                setColor(updatedColor.hex)
-              }}
-            />
+        {displayColorPicker && (
+          <div className='popover'>
+            <div className='cover'>
+              <ChromePicker
+                color={color}
+                onChange={(updatedColor) => {
+                  setColor(updatedColor.hex)
+                }}
+              />
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </section>
       <section className='colors'>
         {list.map((color, i) => (
           <SingleColor
