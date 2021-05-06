@@ -5,7 +5,7 @@ Built as part of a [React course](https://www.udemy.com/course/react-tutorial-an
 
 [Visit project site](https://obrm-color-generator.netlify.app)
 
-#### Values JS & React Color
+## Values JS & React Color
 
 Used these libraries in the project:
 
