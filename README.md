@@ -9,4 +9,4 @@ Built as part of a [React course](https://www.udemy.com/course/react-tutorial-an
 
 Used these libraries in the project:
 
-[values.js](https://github.com/noeldelgado/values.js) [react-color](https://casesandberg.github.io/react-color/)
+[values.js](https://github.com/noeldelgado/values.js), [react-color](https://casesandberg.github.io/react-color/)
